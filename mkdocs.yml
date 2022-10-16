@@ -1,0 +1,71 @@
+site_name: Phantasus Notes
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: white
+    accent: teal
+  language: zh
+  icon:
+    logo: material/pen
+  favicon: src/img/favicon.ico
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - tables
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+  - abbr
+plugins:
+  - glightbox
+  - search:
+      lang: jp
+extra_javascript:
+  - src/js/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - src/js/extra.js?v=16
+  - src/js/math-csr.js?math-csr
+
+copyright: Copyright &copy; Since 2022 Phantasus
+
+nav: 
+  - 生物: 
+    - 选择性必修1 稳态与调节: 
+      - 第一章 人体的内环境与稳态: 
+        - 1.1 细胞生活的环境: biology/book3/ch1/1.md
+        - 1.2 内环境的稳态: biology/book3/ch1/2.md
+      - 第二章 神经调节:
+        - 2.1 神经调节的结构基础: biology/book3/ch2/1.md
+        - 2.2 神经调节的基本方式: biology/book3/ch2/2.md
