@@ -16,6 +16,7 @@ theme:
     - navigation.indexes
     - toc.follow
     - navigation.top
+    - content.code.annotate
 
 markdown_extensions:
   - admonition
