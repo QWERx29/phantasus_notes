@@ -29,6 +29,9 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
+<a class="md-skip" href="#_1">
+          跳转至
+        </a>
 </div>
 <div data-md-component="announce">
 </div>
@@ -196,9 +199,36 @@
 </li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          2.5 人脑的高级功能
+          <span class="md-nav__icon md-icon"></span>
+</label>
 <a class="md-nav__link md-nav__link--active" href="./">
         2.5 人脑的高级功能
       </a>
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_1">
+    语言功能
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+    学习与记忆
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_3">
+    情绪
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -218,6 +248,27 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_1">
+    语言功能
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+    学习与记忆
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_3">
+    情绪
+  </a>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -225,6 +276,76 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1>2.5 人脑的高级功能</h1>
+<div class="admonition quote">
+<p class="admonition-title">「引言」</p>
+<p>大脑皮层有140亿神经元,有 感知外部世界/控制机体反射活动/语言/学习/记忆 等高级功能</p>
+</div>
+<h2 id="_1">语言功能</h2>
+<div class="admonition note">
+<p>听/说/读/写</p>
+</div>
+<div class="admonition note inline end">
+<p class="admonition-title">图2-16 人大脑皮层的言语区(左半球)</p>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="../src/16.png"><img alt="" src="../src/16.png"/></a></p>
+</div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><input id="__tabbed_1_2" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="__tabbed_1_1">左半球</label><label for="__tabbed_1_2">右半球</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>语言功能</li>
+<li>逻辑思维</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<ul>
+<li>形象思维: 音乐/绘画/空间识别</li>
+</ul>
+</div>
+</div>
+</input></input></div>
+<details class="tip">
+<summary>大脑左右半球连接</summary>
+<p>胼胝体</p>
+</details>
+<h2 id="_2">学习与记忆</h2>
+<p>学习与记忆是指神经系统不断地刺激,获得新的 行为/习惯 和 积累经验 的过程.条件反射的建立也就是动物学习的过程</p>
+<div class="admonition note">
+<p>神经递质的作用 / 蛋白质合成</p>
+</div>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio"><input id="__tabbed_2_2" name="__tabbed_2" type="radio"><div class="tabbed-labels"><label for="__tabbed_2_1">学习</label><label for="__tabbed_2_2">记忆</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>信息获取和加工的神经过程</p>
+</div>
+<div class="tabbed-block">
+<p>信息储存和读取的神经过程</p>
+</div>
+</div>
+</input></input></div>
+<div class="admonition tip">
+<p class="admonition-title">特点</p>
+<p>学习和记忆不是由<strong>单一脑区</strong>控制的，而是由 多个脑区 和 神经通路 参与</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">记忆的过程</p>
+<pre class="mermaid"><code>graph LR
+A[外界信息输入] --&gt; B["感觉性记忆"]
+subgraph s1 [短时记忆]
+B -- 注意 --&gt; C["第一级记忆"]
+end
+C -- 运用 --&gt; D["第二级记忆"]
+subgraph s2 [长时记忆]
+D -- 重复整合 --&gt; E["第三级记忆"]
+end
+subgraph s3 [持续时间]
+B --- U["(&lt;1s)"]
+C --- V["(数秒至一分钟)"]
+D --- W["(数分钟至数年)"]
+E --- X["(可能永久)"]
+end</code></pre>
+</div>
+<h2 id="_3">情绪</h2>
+<p>人对外界做出的反应</p>
 </article>
 </div>
 </div>
