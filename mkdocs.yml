@@ -52,8 +52,6 @@ plugins:
   - glightbox
   - search:
       lang: jp
-  - git-revision-date-localized:
-      enable_creation_date: true
 extra_javascript:
   - src/js/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -64,7 +62,15 @@ extra_javascript:
 copyright: Copyright &copy; Since 2022 Phantasus ( <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"> CC BY-NC-SA 4.0 </a> & <a href="https://github.com/zTrix/sata-license"> SATA </a> )
 
 nav: 
-  - index.md
+  - 首页: index.md
+  - 数学: 
+    - 选择性必修 第一册: 
+      - 第一章 空间向量与立体几何: 
+        - maths/book5/ch1/1.md
+  - 物理: 
+    - 选择性必修 第一册: 
+      - 第一章 动量守恒定律:
+        - physics/book4/ch1/1.md
   - 生物: 
     - 选择性必修1 稳态与调节: 
       - 第一章 人体的内环境与稳态: 
