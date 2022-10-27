@@ -64,6 +64,7 @@ extra_javascript:
 copyright: Copyright &copy; Since 2022 Phantasus ( <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"> CC BY-NC-SA 4.0 </a> & <a href="https://github.com/zTrix/sata-license"> SATA </a> )
 
 nav: 
+  - index.md
   - 生物: 
     - 选择性必修1 稳态与调节: 
       - 第一章 人体的内环境与稳态: 
