@@ -1,4 +1,4 @@
-mkdocs build --dirty
+mkdocs build
 git add .
 git commit -m update
 git push -u origin main
