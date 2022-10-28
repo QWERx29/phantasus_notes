@@ -1,4 +1,4 @@
-site_name: Phantasus Notes
+site_name: Φάντασος Notes
 theme:
   name: material
   palette:
@@ -59,7 +59,7 @@ extra_javascript:
   - src/js/extra.js?v=16
   - src/js/math-csr.js?math-csr
 
-copyright: Copyright &copy; Since 2022 Phantasus ( <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"> CC BY-NC-SA 4.0 </a> & <a href="https://github.com/zTrix/sata-license"> SATA </a> )
+copyright: Copyright &copy; Since 2022 Φάντασος ( <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"> CC BY-NC-SA 4.0 </a> & <a href="https://github.com/zTrix/sata-license"> SATA </a> )
 
 nav: 
   - 首页: index.md
@@ -71,6 +71,7 @@ nav:
     - 选择性必修 第一册: 
       - 第一章 动量守恒定律:
         - physics/book4/ch1/1.md
+        - physics/book4/ch1/2.md
   - 生物: 
     - 选择性必修1 稳态与调节: 
       - 第一章 人体的内环境与稳态: 
