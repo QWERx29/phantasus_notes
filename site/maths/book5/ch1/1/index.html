@@ -262,6 +262,11 @@
 </ul>
 </nav>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2/">
+        1.2 空间向量在立体几何中的应用
+      </a>
+</li>
 </ul>
 </nav>
 </li>
@@ -445,6 +450,26 @@
 </ul>
 </nav>
 </li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1_4" id="__nav_4_1_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_1_4">
+          第四章 免疫调节
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="第四章 免疫调节" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_4_1_4">
+<span class="md-nav__icon md-icon"></span>
+          第四章 免疫调节
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../../biology/book3/ch4/1/">
+        4.1 免疫系统的组成和功能
+      </a>
+</li>
+</ul>
+</nav>
+</li>
 </ul>
 </nav>
 </li>
@@ -601,9 +626,25 @@
 </div>
 <h2 id="112">1.1.2 空间向量基本定理</h2>
 <h3 id="_6">共面向量基本定理</h3>
+<p>若 <span class="arithmatex">\(\vec{a},\vec{b}\)</span> 不共线, <span class="arithmatex">\(\vec{a},\vec{b},\vec{c}\)</span> 共面 <span class="arithmatex">\(\Longleftrightarrow\)</span> 存在唯一 <span class="arithmatex">\((x,y)\)</span> 使 <span class="arithmatex">\(\vec{c}=x\vec{a}+y\vec{b}\)</span></p>
+<div class="admonition info">
+<p class="admonition-title">推论</p>
+<ul>
+<li>不共线三点 <span class="arithmatex">\(A,B,C\)</span> , <span class="arithmatex">\(P\)</span> 在平面 <span class="arithmatex">\(ABC\)</span> 内 <span class="arithmatex">\(\Longleftrightarrow\)</span> 存在唯一 <span class="arithmatex">\((x,y)\)</span> 使 <span class="arithmatex">\(\overrightarrow{AP}=x\overrightarrow{AB}+y\overrightarrow{AC}\)</span></li>
+<li>空间中任意一点 <span class="arithmatex">\(O\)</span> , <span class="arithmatex">\(\overrightarrow{OP}=\alpha\overrightarrow{OA}+\beta\overrightarrow{OB}+\gamma\overrightarrow{OC}\Longleftrightarrow A,B,C,P\)</span> 四点共面,且 <span class="arithmatex">\(\alpha+\beta+\gamma=1\)</span></li>
+</ul>
+</div>
 <h3 id="_7">空间向量基本定理</h3>
+<p>若空间中三个向量 <span class="arithmatex">\(\vec{a},\vec{b},\vec{c}\)</span> ,则对于任意向量 <span class="arithmatex">\(\vec{p}\)</span> ,都存在唯一 <span class="arithmatex">\(\{x,y,z\}\)</span> ,使 <span class="arithmatex">\(\vec{p}=x\vec{a}+y\vec{b}+z\vec{c}\)</span></p>
 <h2 id="113">1.1.3 空间向量的坐标 与 空间直角坐标系</h2>
 <h3 id="_8">空间向量的坐标</h3>
+<p>一般的,若一组基底 <span class="arithmatex">\(\{\vec{e_1},\vec{e_2},\vec{e_3}\}\)</span> 中, <span class="arithmatex">\(\vec{e_1},\vec{e_2},\vec{e_3}\)</span> 均为<strong>单位向量</strong>,且<strong>两两垂直</strong>,就称这组基底为<strong>正交基底</strong>,在单位正交基底下向量的分解称为向量的<strong>单位正交分解</strong></p>
+<div class="admonition note">
+<p class="admonition-title">注</p>
+<div class="arithmatex">\[
+\vec{p}=x\vec{e_1}+y\vec{e_2}+z\vec{e_3}\Longleftrightarrow\vec{p}=(x,y,z)
+\]</div>
+</div>
 <div class="admonition info">
 <p class="admonition-title">空间向量的运算 与 坐标的关系</p>
 <div class="admonition tip">
@@ -626,6 +667,11 @@
 </ul>
 </div>
 <h3 id="_9">空间直角坐标系</h3>
+<p>在平面直角坐标系 <span class="arithmatex">\(xOy\)</span> 的基础上,过再作一条数轴 <span class="arithmatex">\(z\)</span> ,使之与 <span class="arithmatex">\(x,y\)</span> 轴都垂直</p>
+<div class="admonition abstract inline end">
+<p class="admonition-title">卦限</p>
+<p><a class="glightbox" data-desc-position="bottom" data-description="" data-height="auto" data-title="" data-width="100%" href="../src/1.jpeg"><img alt="" src="../src/1.jpeg" width="300"/></a></p>
+</div>
 <details class="failure">
 <summary>如何标点</summary>
 <p>先写轴,再写面,最后写空间,其余要计算</p>
@@ -665,13 +711,13 @@ M(\dfrac{x_1+x_2}{2},\dfrac{y_1+y_2}{2},\dfrac{z_1+z_2}{2})
             </div>
 </div>
 </a>
-<a aria-label="下一页: 1.1 动量" class="md-footer__link md-footer__link--next" href="../../../../physics/book4/ch1/1/" rel="next">
+<a aria-label="下一页: 1.2 空间向量在立体几何中的应用" class="md-footer__link md-footer__link--next" href="../2/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                 下一页
               </span>
-              1.1 动量
+              1.2 空间向量在立体几何中的应用
             </div>
 </div>
 <div class="md-footer__button md-icon">

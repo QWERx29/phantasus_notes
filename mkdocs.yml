@@ -67,6 +67,7 @@ nav:
     - 选择性必修 第一册: 
       - 第一章 空间向量与立体几何: 
         - maths/book5/ch1/1.md
+        - maths/book5/ch1/2.md
   - 物理: 
     - 选择性必修 第一册: 
       - 第一章 动量守恒定律:
@@ -87,3 +88,5 @@ nav:
         - 3.1 激素与内分泌系统: biology/book3/ch3/1.md
         - 3.2 激素调节的过程: biology/book3/ch3/2.md
         - 3.3 体液调节与神经调节的关系: biology/book3/ch3/3.md
+      - 第四章 免疫调节: 
+        - 4.1 免疫系统的组成和功能: biology/book3/ch4/1.md
