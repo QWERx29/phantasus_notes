@@ -23,6 +23,8 @@ theme:
   language: zh
   logo: src/img/favicon.ico
   favicon: src/img/favicon.ico
+  icon:
+    annotation: material/plus-circle-outline
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -32,6 +34,7 @@ theme:
     - toc.follow
     - navigation.top
     - content.code.annotate
+    - content.code.copy
 
 markdown_extensions:
   - admonition
@@ -163,8 +166,6 @@ nav:
 
 
 extra:
-  version:
-    provider: mike
   analytics: 
     provider: google
     property: G-0C6SJYXJ5C
