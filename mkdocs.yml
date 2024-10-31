@@ -67,8 +67,6 @@ plugins:
   - glightbox
   - blog: 
       post_date_format: medium
-  - search:
-      lang: jp
 extra_javascript:
   - src/js/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -165,6 +163,8 @@ nav:
 
 
 extra:
+  version:
+    provider: mike
   analytics: 
     provider: google
     property: G-0C6SJYXJ5C
