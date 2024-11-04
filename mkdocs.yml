@@ -81,6 +81,7 @@ copyright: Copyright &copy; Since 2022 Φάντασος ( <a href="https://creat
 
 nav: 
   - 首页: index.md
+  - 集邮: philatelic/index.md
   - 测试: 
     - test/1.md
     - TEST2:
